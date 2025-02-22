@@ -1,0 +1,39 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "firstName": "Gabriel",
+            "lastName": "Siwa",
+            "dateOfBirth": "2002-03-08", 
+            "currentGrade": "11"
+        },
+        {
+            "id": "2",
+            "firstName": "Lulubelle",
+            "lastName": "Fontello",
+            "dateOfBirth": "2002-05-15",
+            "currentGrade": "11"
+        },
+        {
+            "id": "3",
+            "firstName": "Mitzi",
+            "lastName": "Escartin",
+            "dateOfBirth": "2003-09-23",
+            "currentGrade": "10"
+        },
+        {
+            "id": "4",
+            "firstName": "Alessandra",
+            "lastName": "Claur",
+            "dateOfBirth": "2001-12-30",
+            "currentGrade": "12"
+        },
+        {
+            "id": "5",
+            "firstName": "Bryan",
+            "lastName": "Teruel",
+            "dateOfBirth": "2004-07-11",
+            "currentGrade": "9"
+        }
+    ]
+}
