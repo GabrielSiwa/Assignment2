@@ -40,7 +40,14 @@
       "firstName": "George",
       "lastName": "Looney",
       "dateOfBirth": "2020-07-03",
-      "currentGrade": "100"
+      "currentGrade": "lkg"
+    },
+    {
+      "id": "5c32",
+      "firstName": "Macchi",
+      "lastName": "Ato",
+      "dateOfBirth": "2024-08-16",
+      "currentGrade": "1"
     }
   ]
 }
