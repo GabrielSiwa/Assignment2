@@ -89,76 +89,93 @@ const StudentForm = ({ addStudent }) => {
   };
 
   return (
-    <div className="max-w-lg mx-auto bg-gradient-to-r from-blue-500 to-purple-500 p-8 rounded-lg shadow-lg text-white">
-      <h2 className="text-3xl font-bold mb-6 text-center">Add New Student</h2>
+    <div className="w-full max-w-lg mx-auto bg-[#283444] p-6 sm:p-8 md:p-10 shadow-lg text-white">
+      {/* Form */}
       <form onSubmit={handleSubmit} className="space-y-4">
+        {/* First Name */}
         <div>
-          <label className="block text-lg">First Name</label>
+          <label className="block text-lg sm:text-xl font-medium">
+            First Name
+          </label>
           <input
             type="text"
             name="firstName"
-            className="mt-1 p-3 w-full border border-gray-300 rounded-lg text-gray-900"
+            className="mt-1 p-3 w-full border border-gray-400 rounded-lg text-gray-900 focus:ring-2 focus:ring-blue-500"
             value={formData.firstName}
             onChange={handleInputChange}
             required
           />
           {errors.firstName && (
-            <p className="text-red-200 text-sm">{errors.firstName}</p>
+            <p className="text-red-300 text-sm">{errors.firstName}</p>
           )}
         </div>
+
+        {/* Last Name */}
         <div>
-          <label className="block text-lg">Last Name</label>
+          <label className="block text-lg sm:text-xl font-medium">
+            Last Name
+          </label>
           <input
             type="text"
             name="lastName"
-            className="mt-1 p-3 w-full border border-gray-300 rounded-lg text-gray-900"
+            className="mt-1 p-3 w-full border border-gray-400 rounded-lg text-gray-900 focus:ring-2 focus:ring-blue-500"
             value={formData.lastName}
             onChange={handleInputChange}
             required
           />
           {errors.lastName && (
-            <p className="text-red-200 text-sm">{errors.lastName}</p>
+            <p className="text-red-300 text-sm">{errors.lastName}</p>
           )}
         </div>
+
+        {/* Date of Birth */}
         <div>
-          <label className="block text-lg">Date of Birth</label>
+          <label className="block text-lg sm:text-xl font-medium">
+            Date of Birth
+          </label>
           <input
             type="date"
             name="dateOfBirth"
-            className="mt-1 p-3 w-full border border-gray-300 rounded-lg text-gray-900"
+            className="mt-1 p-3 w-full border border-gray-400 rounded-lg text-gray-900 focus:ring-2 focus:ring-blue-500"
             value={formData.dateOfBirth}
             onChange={handleInputChange}
             required
           />
           {errors.dateOfBirth && (
-            <p className="text-red-200 text-sm">{errors.dateOfBirth}</p>
+            <p className="text-red-300 text-sm">{errors.dateOfBirth}</p>
           )}
         </div>
+
+        {/* Grade */}
         <div>
-          <label className="block text-lg">Grade</label>
+          <label className="block text-lg sm:text-xl font-medium">Grade</label>
           <input
             type="text"
             name="currentGrade"
-            className="mt-1 p-3 w-full border border-gray-300 rounded-lg text-gray-900"
+            className="mt-1 p-3 w-full border border-gray-400 rounded-lg text-gray-900 focus:ring-2 focus:ring-blue-500"
             value={formData.currentGrade}
             onChange={handleInputChange}
             required
           />
           {errors.currentGrade && (
-            <p className="text-red-200 text-sm">{errors.currentGrade}</p>
+            <p className="text-red-300 text-sm">{errors.currentGrade}</p>
           )}
         </div>
-        <div>
+
+        {/* Submit Button */}
+        <div className="mt-6 flex justify-center sm:justify-end">
           <button
             type="submit"
-            className="bg-blue-950 text-white-600 font-semibold p-3 rounded-lg w-full hover:bg-gray-400"
+            className="bg-[#ddccb8] text-[#283444] font-semibold px-5 py-3 rounded-lg hover:bg-gray-400 transition"
           >
             Add Student
           </button>
         </div>
       </form>
+
+      {/* Success Message */}
       {message && (
-        <div className="text-green-200 text-center mt-4">{message}</div>
+        <div className="text-green-300 text-center mt-4">{message}</div>
       )}
     </div>
   );

@@ -12,13 +12,24 @@ function StudentList({ onSelect }) {
   }, []);
 
   return (
-    <div className="p-4 bg-gray-100 rounded-lg shadow-md">
-      <h2 className="text-xl font-bold text-gray-800">Student List</h2>
-      <ul className="mt-2 space-y-2">
+    <div className="w-full max-w-4xl p-4 sm:p-6 md:p-8">
+      <div>
+        <h2
+          className="font-bold mb-4 text-[40px]"
+          style={{
+            fontFamily: "Helvetica, sans-serif",
+            fontWeight: 900,
+            lineHeight: "1em",
+          }}
+        >
+          Students List
+        </h2>
+      </div>
+      <ul>
         {students.map((student) => (
           <li
             key={student.id}
-            className="cursor-pointer text-blue-600 hover:underline"
+            className="cursor-pointer text-black text-lg p-2 hover:bg-blue-500 hover:text-white transition"
             onClick={() => onSelect(student)}
           >
             {student.firstName} {student.lastName}
