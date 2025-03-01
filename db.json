@@ -1,60 +1,67 @@
 {
   "students": [
     {
-      "id": "1",
+      "id": "dca3",
       "firstName": "Gabriel",
       "lastName": "Siwa",
-      "dateOfBirth": "2002-03-08",
-      "currentGrade": "11"
+      "dateOfBirth": "2001-08-08",
+      "currentGrade": "3.90"
     },
     {
-      "id": "2",
+      "id": "78c8",
       "firstName": "Lulubelle",
-      "lastName": "Fontello",
+      "lastName": "Fontelo",
       "dateOfBirth": "2002-05-15",
-      "currentGrade": "11"
+      "currentGrade": "4"
     },
     {
-      "id": "3",
+      "id": "1bf0",
       "firstName": "Mitzi",
       "lastName": "Escartin",
       "dateOfBirth": "2003-09-23",
-      "currentGrade": "10"
+      "currentGrade": "4.00"
     },
     {
-      "id": "4",
+      "id": "f78b",
       "firstName": "Alessandra",
       "lastName": "Claur",
       "dateOfBirth": "2001-12-30",
-      "currentGrade": "12"
+      "currentGrade": "4.00"
     },
     {
-      "id": "5",
+      "id": "3414",
       "firstName": "Bryan",
       "lastName": "Teruel",
-      "dateOfBirth": "2004-07-11",
-      "currentGrade": "9"
+      "dateOfBirth": "2004-08-11",
+      "currentGrade": "4.0"
     },
     {
-      "id": "9ed6",
+      "id": "2025",
       "firstName": "George",
       "lastName": "Looney",
       "dateOfBirth": "2020-07-03",
-      "currentGrade": "lkg"
+      "currentGrade": "4.00"
     },
     {
-      "id": "5c32",
-      "firstName": "Macchi",
+      "id": "c2be",
+      "firstName": "Machi",
       "lastName": "Ato",
       "dateOfBirth": "2024-08-16",
-      "currentGrade": "1"
+      "currentGrade": "1.00"
     },
     {
-      "id": "c29b",
+      "id": "5ae7",
       "firstName": "Jane",
       "lastName": "Doe",
       "dateOfBirth": "2015-01-29",
       "currentGrade": "3.5"
+    },
+    {
+      "id": "8e46",
+      "firstName": "Testing First",
+      "lastName": "Testing Last",
+      "dateOfBirth": "2000-01-01",
+      "currentGrade": "1.00"
     }
   ]
 }
